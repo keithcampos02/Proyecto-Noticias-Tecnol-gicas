@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+
+}
+
+
+.contenedor {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.navegacion-principal {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.navegacion-principal_menu {
+
+
+    /* preguntar profe */
+
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+
+}
+
+
+.navegacion-principal__menu-derecha {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+.cabecera {
+    display: grid;
+    background-image: url(assets/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    padding: 25px;
+}
+
+.cabecera h2 {
+    color: white;
+}
+
+.cabecera p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.boton {
+    /* diseÑo del boton */
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #404852;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    /* para cuando me posiciono en el boton cambie a verde spotify */
+    background-color: #12911d;
+}
+
+
+.tarjetas-noticias {
+  /* 4 cajas */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+}
+
+.tarjetas-noticias__tarjetaimg1 {
+
+
+    background-image: url(assets/news1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.tarjetas-noticias__tarjetaimg {
+    background-image: url(assets/news2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.tarjetas-noticias__tarjeta1 {
+    background-image: url(assets/news1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjetas-noticias__tarjeta2 {
+    background-image: url(assets/news2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tarjetas-noticias__tarjeta3 {
+    background-image: url(assets/news3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.tarjetas-noticias__tarjeta4 {
+    background-image: url(assets/news4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.tarjetas-noticias__tarjeta h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.tarjetas-noticias__tarjeta p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.tarjetas-noticias__tarjeta a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.tarjetas-noticias__tarjeta a:hover {
+    /* cuando me posiciono aparece la linea de abajo */
+    text-decoration: underline;
+}
+
+.banner-tarjetas{
+
+    display: grid;
+    grid-template-columns: 2,1fr;
+}
+
+
+
+.banner-tarjetas-uno {
+
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url(assets/tech-red.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.banner-tarjetas-dos {
+
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url(assets/Image-five.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-tarjetas-uno h2,
+.banner-tarjetas-dos h2 {
+
+    margin: 20px;
+}
+
+
+
+
+.social {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social__enlaces {
+    margin-top: 10px;
+}
+
+.social__enlaces a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.social p {
+    color: white;
+}
+
+
+.enlaces-pie {
+    background-color: #262635;
+    color: #fff;
+    padding: 20px 0;
+
+}
+
+.enlaces-pie__contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.enlaces-pie__lista {
+    /* para eliminar los puntos  */
+    list-style-type: none;
+}
+
+.enlaces-pie__lista h3 {
+    margin-bottom: 10px;
+}
+
+.enlaces-pie__lista a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.enlaces-pie__lista a:hover {
+    text-decoration: underline;
+}
+
+.pie {
+    background-color: #262635;
+    color: #4e4b4b;
+    text-align: center;
+    padding: 10px ;
+    
+}
